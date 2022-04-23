@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.de1fa8c9.chunk.css",
+    "main.js": "./static/js/main.1ab56230.chunk.js",
+    "main.js.map": "./static/js/main.1ab56230.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.67138cfb.js",
+    "runtime~main.js.map": "./static/js/runtime~main.67138cfb.js.map",
+    "static/js/2.48904a8f.chunk.js": "./static/js/2.48904a8f.chunk.js",
+    "static/js/2.48904a8f.chunk.js.map": "./static/js/2.48904a8f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.abd3e6e378ebc7476736bb5bf701be32.js": "./precache-manifest.abd3e6e378ebc7476736bb5bf701be32.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.de1fa8c9.chunk.css.map": "./static/css/main.de1fa8c9.chunk.css.map",
+    "static/media/ACM1.png": "./static/media/ACM1.b0a49b6c.png",
+    "static/media/ACM2.png": "./static/media/ACM2.3d4d7535.png",
+    "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.55024ea8.gif",
+    "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.fc6bb204.jpg",
+    "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.a7479450.png",
+    "static/media/cloudbuslogo.png": "./static/media/cloudbuslogo.58fb4e7b.png",
+    "static/media/style.scss": "./static/media/illustration-section-06.66abc7f8.svg",
+    "static/media/features-split-image.svg": "./static/media/features-split-image.c0030329.svg",
+    "static/media/header.jpg": "./static/media/header.c35dd856.jpg",
+    "static/media/logo.svg": "./static/media/logo.9d1da83d.svg",
+    "static/media/members.csv": "./static/media/members.9b59296c.csv",
+    "static/media/universitys.csv": "./static/media/universitys.747ca59a.csv",
+    "static/media/video-placeholder.svg": "./static/media/video-placeholder.22e4e6cd.svg"
+  }
+}
