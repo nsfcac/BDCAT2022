@@ -45,6 +45,7 @@ class App extends React.Component {
                         <AppRoute path="/workshops" component={Workshop} layout={LayoutAlternative} />
                         <AppRoute path="/keynotes" component={Program} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/registration" component={Program} layout={LayoutAlternative} />
                         {/*<AppRoute path="/" component={Login} layout={LayoutSignin} />*/}
                         {/*<AppRoute path="/signup" component={Signup} layout={LayoutSignin} />*/}
                     </Switch>

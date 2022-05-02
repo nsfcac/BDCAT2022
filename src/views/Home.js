@@ -5,6 +5,7 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import ImportantDate from '../components/sections/ImportantDate';
 import Pricing from '../components/sections/Pricing';
 import Cta from '../components/sections/Cta';
+import Social from "../components/sections/Social";
 
 class Home extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Home extends React.Component {
         <FeaturesSplit invertMobile imageFill className="illustration-section-03" />
         <ImportantDate  topDivider className="gradient-section" />
         <Sponsor topDivider bottomDivider />
+          <Social topDivider bottomDivider />
         {/*<Pricing hasBgColor topDivider pricingSwitcher />*/}
         {/*<Cta hasBgColor invertColor split className="illustration-element-08" />*/}
       </React.Fragment>
