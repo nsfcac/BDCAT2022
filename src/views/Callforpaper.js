@@ -156,8 +156,8 @@ class Callforpaper extends React.Component {
                         <GenericSection>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
-                                <ImportantDate topDivider className="gradient-section"/>
-                                <p>Check separate UCC calls for workshops, tutorials and other tracks.</p>
+                                <ImportantDate className="gradient-section" style={{paddingTop:0}}/>
+                                <p>Check separate BDCAT calls for workshops, tutorials and other tracks.</p>
                             </CardContent>
                         </Card>
                         </GenericSection>

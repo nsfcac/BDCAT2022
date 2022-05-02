@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
-import Button from '../elements/Button';
+import Button from "@mui/material/Button/Button";
 import Image from '../elements/Image';
 import Countdown from '../elements/Countdown';
 
@@ -72,6 +72,7 @@ class TitlewithCountdown extends React.Component {
                   </p>
                   <Countdown date={new Date('12/6/2022')}/>
                   <div className="reveal-from-left" data-reveal-delay="400">
+                      <p className="mt-32">Concurrent conference <Button size="large" color="primary" variant="text" href={"https://ucc-conference.org/"}>UCC 2022</Button> </p>
                     {/*<Button tag="a" color="primary" href="https://cruip.com/" wideMobile>*/}
                     {/*  Pricing and plans*/}
                     {/*</Button>*/}

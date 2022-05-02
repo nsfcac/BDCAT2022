@@ -6,6 +6,9 @@ import Image from '../elements/Image';
 import membersData from "../../assets/members.csv"
 import universityData from "../../assets/universitys.csv"
 import {csv,groups} from "d3"
+import IconButton from "@mui/material/IconButton/IconButton";
+import EmailIcon from '@mui/icons-material/Email';
+import Tooltip from "@mui/material/Tooltip/Tooltip";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -90,7 +93,7 @@ class Team extends React.Component {
             <div className={tilesClasses}>
               {c[1].map((m,i)=><div className="tiles-item" key={i}>
                 <div className="tiles-item-inner">
-                  <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div className="team-item-header " data-reveal-container=".tiles-item">
                     <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                       <Image
                         src={`./image/${(m.Name==='??')?'unknown':m.Name}.jpg`}
@@ -113,6 +116,9 @@ class Team extends React.Component {
                               width={50}
                               height={50} />*/}{m.Affiliation}{m.Region?`, ${m.Region}`:''}
                       </p>
+                      {m.Email&&<p><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>
+                          <EmailIcon />
+                      </IconButton> : <a href={`mailto:${m.Email}`}>{m.Email}</a></p>}
                   </div>
                 </div>
               </div>)}
