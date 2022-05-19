@@ -27,6 +27,7 @@ class App extends React.Component {
     // Route change
     componentDidUpdate(prevProps) {
         if (this.props.location.pathname !== prevProps.location.pathname) {
+            document.body.classList.add('is-loaded')
             this.refs.scrollReveal.init();
         }
     }
