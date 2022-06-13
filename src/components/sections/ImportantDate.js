@@ -12,10 +12,10 @@ const defaultProps = {
 }
 
 const _event = [
-    {key:'Paper Submissions Due',date: '9/5/2021'},
-    {key:'Notification of Acceptance',date: '10/10/2021'},
-    {key:'Camera ready papers due',date: '10/31/2021'},
-    {key:'Early registration Deadline',date: '10/31/2021'},
+    {key:'Paper Submissions Due',date: '8/15/2022'},
+    {key:'Notification of Acceptance',date: '9/15/2022'},
+    {key:'Camera ready papers due',date: '9/30/2022'},
+    {key:'Early registration Deadline',date: '10/15/2022'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 

@@ -16,6 +16,7 @@ import Program from './views/Program';
 import Login from './views/Login';
 import Signup from './views/Signup';
 import Workshop from "./views/Workshop";
+import REU from "./views/REU";
 
 class App extends React.Component {
 
@@ -46,6 +47,7 @@ class App extends React.Component {
                         <AppRoute path="/workshops" component={Workshop} layout={LayoutAlternative} />
                         <AppRoute path="/keynotes" component={Program} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/reu-symposium" component={REU} layout={LayoutAlternative} />
                         <AppRoute path="/registration" component={Program} layout={LayoutAlternative} />
                         {/*<AppRoute path="/" component={Login} layout={LayoutSignin} />*/}
                         {/*<AppRoute path="/signup" component={Signup} layout={LayoutSignin} />*/}

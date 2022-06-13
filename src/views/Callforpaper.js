@@ -22,6 +22,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import Container from "@mui/material/Container/Container";
 
 class Callforpaper extends React.Component {
 
@@ -42,12 +43,12 @@ class Callforpaper extends React.Component {
         };
         return (
             <React.Fragment>
-                <Grid container>
-                    <Grid item lg={9}>
+                <Container fullWidth={'lg'}>
+
                         <GenericSection>
                                 <h2>Call for Full Papers</h2>
-                                <p>The IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) is an annual conference series aiming to provide a platform for researchers from both academia and industry to present new discoveries in the broad area of big data computing and applications. Previous events were held in London, UK (BDCAT 2014), Limassol, Cyprus (BDCAT 2015), Shanghai, China (BDCAT 2016), Austin, Texas, USA (BDCAT 2017), Zurich, Switzerland (BDCAT 2018), Auckland, New Zealand (BDCAT 2019) and online (BDCAT 2020). BDCAT 2021 will be held in conjunction with the 14th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2021) in Leicester, UK.</p>
-                                <p>Authors are invited to submit original unpublished manuscripts on a broad range of topics related to big data science, computing paradigms, platforms and applications. </p>
+                                <p>The IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) is an annual conference series aiming to provide a platform for researchers from both academia and industry to present new discoveries in the broad area of big data computing and applications. Previous events were held in Leicester, UK (BDCAT 2021), online (BDCAT 2020), Auckland, New Zealand (BDCAT 2019), Zurich, Switzerland (BDCAT 2018), Austin, Texas, USA (BDCAT 2017), Shanghai, China (BDCAT 2016), Limassol, Cyprus (BDCAT 2015) and London, UK (BDCAT 2014). BDCAT 2022 will be held in conjunction with the 15th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2022) in Portland, Oregon, USA.</p>
+                                <p>Authors are invited to submit original unpublished manuscripts on a broad range of topics related to big data science, computing paradigms, platforms and applications. More information can be found at the conference’s website: <a href={"https://bdcat-conference.org/"} target={"_blank"}>https://bdcat-conference.org/</a> </p>
 
                         </GenericSection>
                         <GenericSection topDivider>
@@ -111,58 +112,34 @@ class Callforpaper extends React.Component {
                         <GenericSection topDivider>
                             <h2>Paper Submission</h2>
                             <p>
-                                BDCAT submissions continue to use a double column format for review based on the new single-column template to facilitate the new ACM production process.
+                                Submitted manuscripts must represent original unpublished research that is not currently under review for any other conference or journal. Manuscripts are submitted in PDF format and may not exceed ten single-spaced double-column pages using 10-point size font on 8.5x11 inch pages, including figures, tables, and references. Please refer to <a href={'https://www.ieee.org/conferences/publishing/templates.html'} target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a> for templates and complete formatting instructions.
                             </p>
                             <p>
-                                Submitted manuscripts must represent original unpublished research that is not currently under review for any other conference or journal. Manuscripts are submitted in PDF format and may not exceed ten (10) ACM-formatted *double-column* pages, including figures, tables, and references.
+                                All manuscripts will be reviewed and judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees.
                             </p>
                             <p>
-                                All manuscripts will be reviewed and judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees. Your submission is subject to a determination that you are not under any sanctions by ACM.
+                                At least one author of each paper must be registered for the conference in order for the paper to be published in the proceedings. The conference proceedings will be published by the IEEE and made available online via the IEEE Xplore Digital Library and ACM Digital Library.
                             </p>
                             <p>
-                                Accepted papers will later be converted into single-column format through the ACM TAPS process and therefore need to use the new templates that are single-column by default. Switch them to double-column for authoring your paper. This is possible in both the Word and the LaTeX templates.
+                                Main track submissions: <a href={'https://easychair.org/conferences/?conf=bdcat2022'} target={"_blank"}>https://easychair.org/conferences/?conf=bdcat2022</a>
                             </p>
                             <p>
-                                LaTeX: \documentclass[sigconf,screen,review]{"{acmart}"}
-                            </p>
-                            <p>
-                                Word: Format - Page - Columns - set to 2
-                            </p>
-                            <p>
-                                At least one author of each paper must be registered for the conference in order for
-                                the paper to be published in the proceedings. The conference proceedings will be
-                                published by the ACM and made available online via the IEEE Xplore Digital Library
-                                and ACM Digital Library.
-                            </p>
-                            <p>
-                                Formatting: <a href={"https://www.acm.org/publications/taps/word-template-workflow"}
-                                               target={"_blank"}>https://www.acm.org/publications/taps/word-template-workflow</a>
-                            </p>
-                            <p>
-                                Main track submissions: <a href={"https://easychair.org/conferences/?conf=ucc2021"}
-                                                           target={"_blank"}>https://easychair.org/conferences/?conf=ucc2021</a>
-                            </p>
-                            <p>
-                                Workshop submissions: see respective workshop information
+                                Workshop/symposium submissions: see respective workshop/symposium information.
                             </p>
                         </GenericSection>
                         <GenericSection topDivider>
-                            <h2>Awards and Special Issues</h2>
-                            <p>A selection commission chaired by the BDCAT 2021 TPC chairs will select and acknowledge the best paper and best student paper to receive an award during the conference.</p>
-                            <p>Authors of highly rated papers from BDCAT 2021 will be invited to submit an extended version to a special issue of a prestigious journal in the area of big data which is currently being defined.</p>
+                            <h2>Awards</h2>
+                            <p>A selection commission chaired by the BDCAT 2022 TPC chairs will select and acknowledge the best paper and best student paper to receive an award during the conference.</p>
                         </GenericSection>
-                    </Grid>
-                    <Grid item lg={3}>
-                        <GenericSection>
-                        <Card sx={{ minWidth: 275 }}>
-                            <CardContent>
-                                <ImportantDate className="gradient-section" style={{paddingTop:0}}/>
-                                <p>Check separate BDCAT calls for workshops, tutorials and other tracks.</p>
-                            </CardContent>
-                        </Card>
-                        </GenericSection>
-                    </Grid>
-                </Grid>
+
+                    <GenericSection>
+
+                        <ImportantDate  topDivider className="gradient-section" style={{paddingTop:0}} topOuterDivider={false}/>
+                        <p>Check separate BDCAT calls for workshops, tutorials and other tracks.</p>
+
+                    </GenericSection>
+
+                </Container>
             </React.Fragment>
         );
     }
