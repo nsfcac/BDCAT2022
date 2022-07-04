@@ -16,6 +16,7 @@ import Program from './views/Program';
 import Login from './views/Login';
 import Signup from './views/Signup';
 import Workshop from "./views/Workshop";
+import Poster from "./views/Poster";
 import REU from "./views/REU";
 
 class App extends React.Component {
@@ -45,6 +46,7 @@ class App extends React.Component {
                         <AppRoute path="/call-for-paper" component={Callforpaper} layout={LayoutAlternative} />
                         <AppRoute path="/chairs-committees" component={ChairsCommittees} layout={LayoutAlternative} />
                         <AppRoute path="/workshops" component={Workshop} layout={LayoutAlternative} />
+                        <AppRoute path="/poster" component={Poster} layout={LayoutAlternative} />
                         <AppRoute path="/keynotes" component={Program} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={Program} layout={LayoutAlternative} />
                         <AppRoute path="/reu-symposium" component={REU} layout={LayoutAlternative} />

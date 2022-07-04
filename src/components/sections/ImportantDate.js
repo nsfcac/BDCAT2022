@@ -12,7 +12,7 @@ const defaultProps = {
 }
 
 const _event = [
-    {key:'Paper Submissions Due',date: '8/15/2022'},
+    {key:'Paper Submissions Due',date: '8/8/2022'},
     {key:'Notification of Acceptance',date: '9/15/2022'},
     {key:'Camera ready papers due',date: '9/30/2022'},
     {key:'Early registration Deadline',date: '10/15/2022'},
@@ -64,7 +64,7 @@ class ImportantDate extends React.Component {
                             {(event??_event).map(e=><li key={e.key} className="tiles-item reveal-from-top" data-reveal-delay="200" style={{maxWidth:'unset'}}>
                                 <div className={"time-card tiles-item-inner has-shadow"}>
                                     <div className={"time"}>
-                                        <h3>{timeFormat('%d')(new Date(e.date))}</h3>
+                                        <h3>{e.date==='TBD'?"TBD":timeFormat('%d')(new Date(e.date))}</h3>
                                         <strong>{timeFormat('%b')(new Date(e.date))}</strong>
                                     </div>
                                     <span>{e.key}</span>

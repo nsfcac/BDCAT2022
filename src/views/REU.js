@@ -61,9 +61,9 @@ class Secondary extends React.Component {
           </div>
         </GenericSection>
           <ImportantDate topDivider event={[
-              {key:'Paper submission due date',date: '12 September 2022'},
-              {key:'Decision notification',date: '20 October 2022'},
-              {key:'Camera-ready due date',date: '31 November 2022'}
+              {key:'Paper submission due date',date: '8 August 2022'},
+              {key:'Decision notification',date: '15 September 2022'},
+              {key:'Camera-ready due date',date: '30 September 2022'}
           ]}
                          extra={<p>Symposium: One day in Dec 6-9, 2022</p>}/>
           <GenericSection topDivider>
