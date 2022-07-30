@@ -49,7 +49,8 @@ class Callforpaper extends React.Component {
                                 <h2>Call for Full Papers</h2>
                                 <p>The IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) is an annual conference series aiming to provide a platform for researchers from both academia and industry to present new discoveries in the broad area of big data computing and applications. Previous events were held in Leicester, UK (BDCAT 2021), online (BDCAT 2020), Auckland, New Zealand (BDCAT 2019), Zurich, Switzerland (BDCAT 2018), Austin, Texas, USA (BDCAT 2017), Shanghai, China (BDCAT 2016), Limassol, Cyprus (BDCAT 2015) and London, UK (BDCAT 2014). BDCAT 2022 will be held in conjunction with the 15th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2022) in Portland, Oregon, USA. </p>
                                 <p>Authors are invited to submit original unpublished manuscripts on a broad range of topics related to big data science, computing paradigms, platforms and applications. More information can be found at the conference’s website: <a href={"https://bdcat-conference.org/"} target={"_blank"}>https://bdcat-conference.org/</a> </p>
-
+                                <p>BDCAT 2022 offers a technical programme, workshops, tutorials, a doctoral symposium and a REU symposium for undergraduate research. The event will have a co-located UCC 2022 conference.</p>
+                                <p>Authors of accepted papers can opt into reproducible research decoration to publish according to open science conventions; the details are described below.</p>
                         </GenericSection>
                         <GenericSection topDivider>
                             <h2>Topics of interest include (but not limited to)</h2>
@@ -112,10 +113,13 @@ class Callforpaper extends React.Component {
                         <GenericSection topDivider>
                             <h2>Paper Submission</h2>
                             <p>
-                                Submitted manuscripts must represent original unpublished research that is not currently under review for any other conference or journal. Manuscripts are submitted in PDF format and may not exceed ten single-spaced double-column pages using 10-point size font on 8.5x11 inch pages, including figures, tables, and references. Please refer to <a href={'https://www.ieee.org/conferences/publishing/templates.html'} target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a> for templates and complete formatting instructions.
+                                Submitted manuscripts must represent original unpublished research that is not currently under review for any other conference or journal. Manuscripts are submitted in PDF format and may not exceed ten (10) single-spaced double-column pages using 10-point size font on 8.5x11 inch pages, including figures, tables, and references. Please refer to <a href={'https://www.ieee.org/conferences/publishing/templates.html'} target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a> for templates and complete formatting instructions.
                             </p>
                             <p>
                                 All manuscripts will be reviewed and judged on correctness, originality, technical strength, rigour in analysis, quality of results, quality of presentation, and interest and relevance to the conference attendees.
+                            </p>
+                            <p>
+                                Accepted papers will be invited to undergo an artifact evaluation process that will determine availability of code/data or even reproducibility. An independent committee will handle this process and send the invite along with instructions after the acceptance notification.
                             </p>
                             <p>
                                 At least one author of each paper must be registered for the conference in order for the paper to be published in the proceedings. The conference proceedings will be published by the IEEE and made available online via the IEEE Xplore Digital Library and ACM Digital Library.
@@ -130,6 +134,7 @@ class Callforpaper extends React.Component {
                         <GenericSection topDivider>
                             <h2>Awards</h2>
                             <p>A selection commission chaired by the BDCAT 2022 TPC chairs will select and acknowledge the best paper and best student paper to receive an award during the conference.</p>
+                            <p>Many thanks to the funding from National Science Foundation to provide student travel awards and attend our conference.</p>
                         </GenericSection>
 
                     <GenericSection>

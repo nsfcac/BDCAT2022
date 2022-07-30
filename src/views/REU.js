@@ -73,7 +73,7 @@ class Secondary extends React.Component {
                             an undergraduate student funded as part of the NSF REU (REU supplement or REU Site) program
                             or similar programs.</strong>
                         </p>
-                        <p style="color:Red">Update (07/24/2022): The main <a href="https://bdcat-conference.org/"
+                        <p style={{"color":"red"}}>Update (07/24/2022): The main <a href="https://bdcat-conference.org/"
                                                                               target="_blank"
                                                                               rel="noopener noreferrer">conference</a> has
                             received funding from National Science Foundation (NSF) to provide <strong>Student Travel
@@ -82,7 +82,7 @@ class Secondary extends React.Component {
                     </div>
                 </GenericSection>
                 <ImportantDate topDivider event={[
-                    {key: 'Paper submission due date', date: '25 August 2022'},
+                    {key: 'Paper submission due date (Extended)', date: '25 August 2022'},
                     {key: 'Decision notification', date: '20 September 2022'},
                     {key: 'Camera-ready due date', date: '30 September 2022'}
                 ]}
