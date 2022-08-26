@@ -144,6 +144,9 @@ class Header extends React.Component {
                                             <Link to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
                                         </li>
                                         <li>
+                                            <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>
+                                        </li>
+                                        <li>
                                             <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>
                                         </li>
                                         <li>

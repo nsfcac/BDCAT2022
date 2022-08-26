@@ -93,11 +93,11 @@ class Team extends React.Component {
                 <div className="container">
                     <div className={innerClasses}>
                         {members.map(c=><div key={c[0]} className={"mb-32"}>
-                            <SectionHeader data={{title:c[0]}} className="center-content reveal-from-top" />
+                            <SectionHeader data={{title:c[0]}} className="center-content" />
                             <div className={tilesClasses}>
                                 {c[1].map((m,i)=><div className="tiles-item" key={i}>
                                     <div className="tiles-item-inner">
-                                        <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                                        <div className="team-item-header tiles-item">
                                             <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                                                 <Image
                                                     src={`./image/${m.Avatar!==''?m.Avatar:`${(m.Name==='??')?'unknown':m.Name}.jpg`}`}
@@ -106,7 +106,7 @@ class Team extends React.Component {
                                                     height={190} />
                                             </div>
                                         </div>
-                                        <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
+                                        <div className="team-item-content tiles-item">
                                             <h5 className="team-item-name mt-0 mb-4">
                                                 {m.Name}
                                             </h5>
