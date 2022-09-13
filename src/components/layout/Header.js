@@ -152,6 +152,9 @@ class Header extends React.Component {
                                         <li>
                                             <Link to="/reu-symposium" onClick={this.closeMenu}>REU Symposium</Link>
                                         </li>
+                                        <li>
+                                            <Link to="/venue" onClick={this.closeMenu}>Venue</Link>
+                                        </li>
                                     </ul>
                                     {!hideSignin &&
                                     <ul

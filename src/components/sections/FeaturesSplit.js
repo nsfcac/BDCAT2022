@@ -96,7 +96,7 @@ class FeaturesSplit extends React.Component {
                     BDCAT 2022
                   </h3>
                   <p className="m-0">
-                      BDCAT2022 be hosted at the Washington State University. Portland, Oregon’s largest city, sits on the Columbia and Willamette rivers, in the shadow of snow-capped Mount Hood and will be held in conjunction with the 14th IEEE/ACM International Conference on Utility and Cloud Computing.
+                      BDCAT2022 will be held in conjunction with the 14th IEEE/ACM International Conference on Utility and Cloud Computing.
                   </p>
                   <p>
                       Both UCC and BDCAT will act with responsibility with public good as always the primary consideration. Authors and participants are encouraged to read the <a href={"https://www.acm.org/code-of-ethics"} target={"_blank"}>ACM Code of Ethics and Professional Conduct</a> and <a href={"https://www.acm.org/about-acm/policy-against-harassment"} target={"_blank"}>ACM Policy Against Harassment</a>.
@@ -114,7 +114,7 @@ class FeaturesSplit extends React.Component {
                     height={396} />
                   <div style={img02Style}>
                     <Image
-                      src={require('./../../assets/images/campus-entrance-fall.png')}
+                      src={require('./../../assets/images/venueHolder.png')}
                       alt="Features split top 02"
                       width={344}
                       height={212} />

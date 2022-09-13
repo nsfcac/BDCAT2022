@@ -95,9 +95,9 @@ class Team extends React.Component {
                         {members.map(c=><div key={c[0]} className={"mb-32"}>
                             <SectionHeader data={{title:c[0]}} className="center-content" />
                             <div className={tilesClasses}>
-                                {c[1].map((m,i)=><div className="tiles-item" key={i}>
+                                {c[1].map((m,i)=><div className="tiles-item" key={i} style={{padding:0}}>
                                     <div className="tiles-item-inner">
-                                        <div className="team-item-header tiles-item">
+                                        <div className="team-item-header tiles-item" style={{padding:0}}>
                                             <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                                                 <Image
                                                     src={`./image/${m.Avatar!==''?m.Avatar:`${(m.Name==='??')?'unknown':m.Name}.jpg`}`}
