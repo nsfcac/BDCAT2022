@@ -25,35 +25,36 @@ class GenericSection extends React.Component {
       bottomDivider,
       hasBgColor,
       invertColor,
+      innerClass=true,
       ...props
     } = this.props;
 
     const outerClasses = classNames(
-      'section',
-      topOuterDivider && 'has-top-divider',
-      bottomOuterDivider && 'has-bottom-divider',
-      hasBgColor && 'has-bg-color',
-      invertColor && 'invert-color',
-      className
+        'section',
+        topOuterDivider && 'has-top-divider',
+        bottomOuterDivider && 'has-bottom-divider',
+        hasBgColor && 'has-bg-color',
+        invertColor && 'invert-color',
+        className
     );
 
     const innerClasses = classNames(
-      'section-inner',
-      topDivider && 'has-top-divider',
-      bottomDivider && 'has-bottom-divider'
+        innerClass && 'section-inner',
+        topDivider && 'has-top-divider',
+        bottomDivider && 'has-bottom-divider'
     );
 
     return (
-      <section
-        {...props}
-        className={outerClasses}
-      >
-        <div className="container">
-          <div className={innerClasses}>
-            {children}
+        <section
+            {...props}
+            className={outerClasses}
+        >
+          <div className="container">
+            <div className={innerClasses}>
+              {children}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
     );
   }
 }
