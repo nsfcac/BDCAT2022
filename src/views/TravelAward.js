@@ -65,7 +65,7 @@ class Keynote extends React.Component {
                     <div className="container">
                         <h3 className="mt-0">Selection Process</h3>
                         <p>
-                            The Student Travel Award Committee will review completed applications and make recommendations. Please note that an application is not complete until we receive your letter of support. The applicant will be notified Nov 14, 2022.
+                            The Student Travel Award Committee will review completed applications and make recommendations. Please note that an application is not complete until we receive your letter of support. The applicant will be notified Nov 10, 2022.
                         </p>
                     </div>
                 </GenericSection>
