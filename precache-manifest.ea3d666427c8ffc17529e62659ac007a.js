@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d57bb3dc58d76ad5cffeed05dfea300",
+    "revision": "f655aed4cd0f7f1af84b2ec36928cc04",
     "url": "./index.html"
   },
   {
-    "revision": "1144293911e50fea4a20",
+    "revision": "822d7ca94bbb062ae715",
     "url": "./static/css/main.51af2669.chunk.css"
   },
   {
-    "revision": "6df75c5d20ec4f2a9720",
-    "url": "./static/js/2.4ad4aec7.chunk.js"
+    "revision": "78300a18b7c040a57bf5",
+    "url": "./static/js/2.22366233.chunk.js"
   },
   {
-    "revision": "1144293911e50fea4a20",
-    "url": "./static/js/main.938c6c56.chunk.js"
+    "revision": "822d7ca94bbb062ae715",
+    "url": "./static/js/main.064cf4db.chunk.js"
   },
   {
     "revision": "61e1d483a48a1f33ab0e",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0948c45f2c9c1f6b4035f207867d90c7",
     "url": "./static/media/Tania Lorido Botran.0948c45f.jpg"
+  },
+  {
+    "revision": "8f9c7d9e3a726040c7e42bbc81aabbe4",
+    "url": "./static/media/UCC_2022_workshops.8f9c7d9e.csv"
   },
   {
     "revision": "d77f81bbdbc849078338a95c54083496",
