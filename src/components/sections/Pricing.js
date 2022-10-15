@@ -128,8 +128,8 @@ class Pricing extends React.Component {
                 <Switch
                   checked={this.state.priceChangerValue === '1' ? true : false}
                   onChange={this.handlePricingSwitch}
-                  rightLabel="Billed Annually">
-                    Billed Monthly
+                  rightLabel="Normal Price">
+                    Early Bird
                 </Switch>
               </div>
             }

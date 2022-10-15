@@ -18,10 +18,14 @@ import Accordion from '../components/elements/Accordion';
 import AccordionItem from '../components/elements/AccordionItem';
 import ImportantDate from "../components/sections/ImportantDate";
 
+import UCC_2022_workshops from "../assets/UCC_2022_workshops.csv";
+import {csv, groups} from "d3"
+
 class Secondary extends React.Component {
 
   state = {
-    demoModalActive: false
+    demoModalActive: false,
+      workshopList:[],
   }
 
   openModal = (e) => {
@@ -34,12 +38,25 @@ class Secondary extends React.Component {
     this.setState({ demoModalActive: false });
   }
 
-  render() {
+    componentDidMount() {
+        csv(UCC_2022_workshops).then(d=>{
+            this.setState({workshopList:d.filter(d=>((d.Potential==='')&&(d.Name!=='')))});
+        })
+    }
 
+  render() {
+      const {workshopList} = this.state;
 
     return (
       <React.Fragment>
-
+          <GenericSection topDivider>
+              <div className="container">
+                  <h2 className="mt-0">Current Workshop</h2>
+                  <ul>
+                      {workshopList.map((d,i)=><li><a target="_blank" href={d.Website}>{d.Name}</a></li>)}
+                  </ul>
+              </div>
+          </GenericSection>
         <GenericSection topDivider>
           <div className="container">
             <h2 className="mt-0">Call for Workshop Proposals Submission</h2>

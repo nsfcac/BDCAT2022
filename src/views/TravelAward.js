@@ -90,18 +90,13 @@ class Keynote extends React.Component {
                         <p>
                             UCC/BDCAT is committed to promoting diversity, equity, and inclusion. The student travel award is sponsored by the U.S. National Science Foundation.
                         </p>
+                        <div  className="center-content">
+                            <Image src={require(`./../assets/images/NSF_4-Color_bitmap_Logo.png`)}
+                                   width={200}
+                                   height={200}/>
+                        </div>
                     </div>
                 </GenericSection>
-                {/*<HeroFull content={{title: 'Student Travel Award',*/}
-                {/*  inside:<><p>UCC/BDCAT 2022 offers a limited number of travel awards to student participants. All interested students are encouraged to apply, but priority will be given to student (co)authors of an accepted work to the main conference, workshop, or symposium. </p>*/}
-                {/*      <p>The student travel award will cover full conference registration (including publication fees) and five nights of stay at the conference hotel (shared room with another student).</p>*/}
-                {/*    <div>*/}
-                {/*        <Image src={require(`./../assets/images/NSF_4-Color_bitmap_Logo.png`)}*/}
-                {/*               width={100}*/}
-                {/*               height={100}/>*/}
-                {/*    </div>*/}
-                {/*  </>*/}
-                {/*}}/>*/}
             </React.Fragment>
         );
     }
