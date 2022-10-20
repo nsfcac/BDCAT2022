@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d03455363d3286c5a6cd1c70b4f1083c",
+    "revision": "e57de7933b8906d422ca3a6fc3b9964d",
     "url": "./index.html"
   },
   {
-    "revision": "e31512f393ace0a19687",
+    "revision": "ae07ca8a3698d1ff9c43",
     "url": "./static/css/main.4a847651.chunk.css"
   },
   {
-    "revision": "fd5b80322f5ecb8fd2fc",
-    "url": "./static/js/2.5d8dce24.chunk.js"
+    "revision": "eefff46b4fac9033639b",
+    "url": "./static/js/2.68d63936.chunk.js"
   },
   {
-    "revision": "e31512f393ace0a19687",
-    "url": "./static/js/main.eddfeb63.chunk.js"
+    "revision": "ae07ca8a3698d1ff9c43",
+    "url": "./static/js/main.117b1612.chunk.js"
   },
   {
     "revision": "61e1d483a48a1f33ab0e",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27fcd2081b64f7e53422607f81b95237",
     "url": "./static/media/BDCAT2022-TCP.27fcd208.csv"
+  },
+  {
+    "revision": "e2d01a5fad645ff6349db5e387db1402",
+    "url": "./static/media/Gul Agha.e2d01a5f.jpg"
   },
   {
     "revision": "55024ea8792f6df4414b19d145333373",
