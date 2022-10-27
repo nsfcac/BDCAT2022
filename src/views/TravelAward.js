@@ -48,12 +48,11 @@ class Keynote extends React.Component {
                 <GenericSection topDivider innerClass={false}>
                     <div className="container">
                         <h3 className="mt-0">Information for Awardees</h3>
-                        <p>If you are funded by this award, you must: </p>
+                        <h4>Note that if you are funded by this award, you ask that you:</h4>
                         <ul>
-                            <li>Attend the full conference in person (check-in on Dec 5, and check-out on Dec 10, 2022)</li>
-                            <li>Serve as student volunteer at the conference</li>
-                            <li>Stay (with one other student*) at the conference hotel</li>
-                            <li>Attend the two student awardees meetings (one on Dec 6, and one on Dec 9, 2022)</li>
+                            <li>Attend the conference in person. Awardees are encouraged to attend as many days as possible to engage with the community. </li>
+                            <li>Serve as student volunteer while at the conference</li>
+                            <li>Stay (with one other student *) at the conference hotel</li>
                             <li>Submit a report to the Student Travel Award Chair within 1 month after the conference</li>
                         </ul>
                         <p className="news-item-more text-xs mb-8">
@@ -97,6 +96,16 @@ class Keynote extends React.Component {
                         </div>
                     </div>
                 </GenericSection>
+                {/*<HeroFull content={{title: 'Student Travel Award',*/}
+                {/*  inside:<><p>UCC/BDCAT 2022 offers a limited number of travel awards to student participants. All interested students are encouraged to apply, but priority will be given to student (co)authors of an accepted work to the main conference, workshop, or symposium. </p>*/}
+                {/*      <p>The student travel award will cover full conference registration (including publication fees) and five nights of stay at the conference hotel (shared room with another student).</p>*/}
+                {/*    <div>*/}
+                {/*        <Image src={require(`./../assets/images/NSF_4-Color_bitmap_Logo.png`)}*/}
+                {/*               width={100}*/}
+                {/*               height={100}/>*/}
+                {/*    </div>*/}
+                {/*  </>*/}
+                {/*}}/>*/}
             </React.Fragment>
         );
     }
