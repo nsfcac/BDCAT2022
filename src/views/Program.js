@@ -93,7 +93,7 @@ class Program extends React.Component {
                                                     (online)
                                                 </div>
                                             </td>
-                                            <td className="s5">REU</td>
+                                            <td className="s5">REU Symposium</td>
                                         </tr>
                                         <tr>
 
@@ -111,7 +111,7 @@ class Program extends React.Component {
                                                     (online)
                                                 </div>
                                             </td>
-                                            <td className="s5">REU</td>
+                                            <td className="s5">REU Symposium</td>
                                         </tr>
                                         <tr style={{height: "20px"}}>
                                         </tr>
@@ -317,7 +317,8 @@ class Program extends React.Component {
                                       onChange={(event, newValue) => this.setState({selectedPlace: newValue})} centered>
                                     <Tab label="UCC" {...a11yProps(0)}/>
                                     <Tab label="BDCAT" {...a11yProps(1)}/>
-                                    <Tab label="REU" {...a11yProps(2)}/>
+                                    <Tab label="REU Symposium" {...a11yProps(2)}/>
+                                    <Tab label="Posters" {...a11yProps(3)}/>
                                 </Tabs>
                                 <div className={"tabsPanel"}>
                                     <TabPanel value={this.state.selectedPlace} index={0}>
@@ -1076,7 +1077,7 @@ class Program extends React.Component {
                                     </TabPanel>
                                     <TabPanel value={this.state.selectedPlace} index={2}>
                                         <div>
-                                            <h3>REU 2022 Agenda</h3>
+                                            <h3>REU Symposium 2022 Agenda</h3>
                                             <div className="ritz grid-container" dir="ltr">
                                                 <table className="waffle" cellSpacing="0" cellPadding="0">
                                                     <colgroup>
@@ -1087,7 +1088,7 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 1 - Tuesday, December 06 morning 09:00-10:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 1 - Tuesday, December 06 morning 09:00-10:20</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1147,7 +1148,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 2 - Tuesday, December 06 morning 10:30-11:50</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 2 - Tuesday, December 06 morning 10:30-11:50</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1195,7 +1196,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 3 - Tuesday, December 06 afternoon 13:00-14:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 3 - Tuesday, December 06 afternoon 13:00-14:20</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1249,7 +1250,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 4 - Tuesday, December 06 afternoon 14:30-15:50</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 4 - Tuesday, December 06 afternoon 14:30-15:50</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1284,6 +1285,109 @@ class Program extends React.Component {
                                                             Open Source Projects
                                                         </td>
                                                         <td className="s5" dir="ltr">Erik Maza and Kazi Zakia Sultana
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">4410</td>
+                                                        <td className="s4" dir="ltr">Reconstructing High-Dimensional Datasets From Their Bivariate Projections</td>
+                                                        <td className="s5" dir="ltr">Eli Dugan and Klaus Mueller
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </TabPanel>
+                                    <TabPanel value={this.state.selectedPlace} index={3}>
+                                        <div>
+                                            <div className="ritz grid-container" dir="ltr">
+                                                <table className="waffle" cellSpacing="0" cellPadding="0">
+                                                    <colgroup>
+                                                        <col id="1554768505C0" style={{width: "94px"}}></col>
+                                                        <col id="1554768505C1" style={{minWidth: "373px"}}></col>
+                                                        <col id="1554768505C2" style={{width: "373px"}}></col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr style={{height: "20px"}}>
+
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Joint Poster Session - Wednesday, December 07 afternoon 18:00 - 20:30 (During Reception)</td>
+
+                                                    </tr>
+                                                    {/*<tr style={{height: "20px"}}>*/}
+
+                                                    {/*    <td className="s1 button-secondary" dir="ltr" colSpan="2">Chair: Dr. Jianwu Wang</td>*/}
+
+                                                    {/*</tr>*/}
+                                                    <tr style={{height: "20px"}}>
+
+                                                        <td className="s3" dir="ltr">432</td>
+                                                        <td className="s4" dir="ltr">An Effective Supplementation of Insufficient Data by Generative Adversarial Networks</td>
+                                                        <td className="s5" dir="ltr">Abdulkabir Abdulraheem and Im Jung</td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">781</td>
+                                                        <td className="s4">Communication and Energy Efficient Edge
+                                                            Intelligence
+                                                        </td>
+                                                        <td className="s5">Sabtain Ahmad</td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">2621</td>
+                                                        <td className="s4">Physics Informed Neural Networks: Reducing
+                                                            Data Size Requirements via Hybrid Learning
+                                                        </td>
+                                                        <td className="s5">Charlotte Lew</td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">7972</td>
+                                                        <td className="s4">Anomaly detection of high-dimensional data
+                                                            based on Ensemble GANs with Dropout
+                                                        </td>
+                                                        <td className="s5">Wanghu Chen, Jilong Yao, Meilin Zhou, Jing Li
+                                                            and Mengyang Shen
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">9907</td>
+                                                        <td className="s4">Honey-CNT based Resistive Switching Device
+                                                            for Neuromorphic Computing Application
+                                                        </td>
+                                                        <td className="s5 softmerge">Md Mehedi Hasan Tanim,
+                                                                Abdi Yamil
+                                                                Vicenciodelmoral, Zoe Templin, Xinghui Zhao and Feng
+                                                                Zhao
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">5253</td>
+                                                        <td className="s4">A Legal Analysis of Educational Data in the
+                                                            Cloud
+                                                        </td>
+                                                        <td className="s5">Ben Cohen, Ashley Hu, Deisy Patino and Joel
+                                                            Coffman
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">8329</td>
+                                                        <td className="s4">Microservices vs Serverless Deployment in
+                                                            AWS: A Case Study with an Image Processing
+                                                            Application
+                                                        </td>
+                                                        <td className="s5">Raju Shrestha and Beebu Nisha</td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">9361</td>
+                                                        <td className="s4">Analyzing Data Intensive Networks on Chips
+                                                        </td>
+                                                        <td className="s5">Junwei Zhang and Thomas G. Robertazzi</td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3">5934</td>
+                                                        <td className="s4">Geofence-Based Service Discovery in the
+                                                            Computing Continuum
+                                                        </td>
+                                                        <td className="s5">Kurt Horvath, Dragi Kimovski, Christoph Uran,
+                                                            Radu Prodan and Helmut Wöllik
                                                         </td>
                                                     </tr>
                                                     </tbody>
