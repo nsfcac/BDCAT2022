@@ -333,7 +333,7 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 1 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 1 -
                                                             Wednesday Dec 7
                                                             morning 10.30-12.00
                                                         </td>
@@ -341,7 +341,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Predictive and
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Predictive and
                                                             Autonomic Cloud
                                                             Computing
                                                         </td>
@@ -388,7 +388,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 2 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 2 -
                                                             Wednesday Dec 7
                                                             afternoon
                                                             15.30-17.00
@@ -397,7 +397,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Edge-Cloud
                                                             Computing Paradigms
                                                         </td>
 
@@ -451,7 +451,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 3 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 3 -
                                                             Thursday Dec 8
                                                             morning 10.30-12.00
                                                         </td>
@@ -459,7 +459,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Machine
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Edge-Cloud Machine
                                                             Learning
                                                         </td>
 
@@ -510,7 +510,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 4 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 4 -
                                                             Thursday Dec 8
                                                             afternoon
                                                             14.00-15.30
@@ -519,7 +519,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud and Edge
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Cloud and Edge
                                                             Platforms and
                                                             Mobility
                                                         </td>
@@ -571,7 +571,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 5 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 5 -
                                                             Friday Dec 9
                                                             morning 10.30-12.30
                                                         </td>
@@ -579,7 +579,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud Networking
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Cloud Networking
                                                             and Data
                                                             Services
                                                         </td>
@@ -643,7 +643,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 6 -
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session UCC 6 -
                                                             Friday Dec 9
                                                             afternoon 13.30-15.30
                                                         </td>
@@ -651,7 +651,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud/Serverless
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Cloud/Serverless
                                                             Applications and
                                                             Workflows
                                                         </td>
@@ -729,14 +729,14 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 1 - Wednesday Dec 7 morning 10.30-12.00
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Big
                                                             Data Analysis
                                                         </td>
 
@@ -778,14 +778,14 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 2 - Wednesday Dec 7 afternoon 15.30-17.00
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Big
                                                             Data Computation and Systems
                                                         </td>
 
@@ -828,14 +828,14 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 3 - Thursday Dec 8 morning 10.30-12.00
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Big
                                                             Data for Cybersecurity
                                                         </td>
 
@@ -889,14 +889,14 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 4 - Thursday Dec 8 afternoon 14.00-15.30
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Big
                                                             Data for Earth
                                                         </td>
 
@@ -946,14 +946,14 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 5 - Friday Dec 9 morning 10.30-12.30
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Big
                                                             Data Applications
                                                         </td>
 
@@ -1014,14 +1014,15 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session
                                                             BDCAT 6 - Friday Dec 9 afternoon 13.30-15.30
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Security in Big Data
+                                                        <td className="s1 button-secondary" dir="ltr"
+                                                            colSpan="3">Security in Big Data
                                                         </td>
 
                                                     </tr>
@@ -1087,12 +1088,12 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 1 - Tuesday, December 06 morning 09:00-10:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session REU 1 - Tuesday, December 06 morning 09:00-10:20</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Chair: Dr. Jianwu Wang</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Chair: Dr. Jianwu Wang</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1147,12 +1148,12 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 2 - Tuesday, December 06 morning 10:30-11:50</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session REU 2 - Tuesday, December 06 morning 10:30-11:50</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Chair: Dr. Jianwu Wang
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Chair: Dr. Jianwu Wang
                                                         </td>
 
                                                     </tr>
@@ -1195,12 +1196,12 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 3 - Tuesday, December 06 afternoon 13:00-14:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session REU 3 - Tuesday, December 06 afternoon 13:00-14:20</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Chair: Dr. Matthias Gobbert</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Chair: Dr. Matthias Gobbert</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1249,12 +1250,12 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU 4 - Tuesday, December 06 afternoon 14:30-15:50</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session REU 4 - Tuesday, December 06 afternoon 14:30-15:50</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Chair: Dr. Matthias Gobbert</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">Chair: Dr. Matthias Gobbert</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
