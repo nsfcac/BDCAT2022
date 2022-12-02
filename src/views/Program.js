@@ -171,6 +171,12 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
+                                            <td className="s3">17:00 - 18:30</td>
+                                            <td className="s4">Parallel Sessions</td>
+                                            <td className="s5" colSpan="3"><a href={"https://daac-general.nsfcac.org/daac-2022"} target={"_blank"}>DAAC</a> (For remote online participation  <a href={"https://www.eventbrite.com/e/daac-2022-reducing-hpcs-carbon-footprint-tickets-477704636427"} target={"_blank"}>registration link</a>)</td>
+                                        </tr>
+                                        <tr>
+
                                             <td className="s3">18:30 - 20:30</td>
                                             <td className="s4" colSpan="4">Reception (Posters Display)</td>
                                         </tr>
@@ -201,7 +207,9 @@ class Program extends React.Component {
 
                                             <td className="s3">10:30 - 12:00</td>
                                             <td className="s4">Parallel Sessions</td>
-                                            <td className="s5" colSpan="3">DAAC (For remote online participation  <a href={"https://www.eventbrite.com/e/daac-2022-reducing-hpcs-carbon-footprint-tickets-477704636427"} target={"_blank"}>registration link</a>)</td>
+                                            <td className="s5">UCC 3</td>
+                                            <td className="s5">BDCAT 3</td>
+                                            <td className="s5" dir="ltr">Intel4EC 2</td>
                                         </tr>
                                         <tr>
 
@@ -212,29 +220,22 @@ class Program extends React.Component {
 
                                             <td className="s3">13:00 - 14:00</td>
                                             <td className="s4">Plenary Keynote 4</td>
-                                            <td className="s5" dir="ltr" colSpan="3">Michala Taufer</td>
+                                            <td className="s5" dir="ltr" colSpan="3">Michela Taufer</td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3">14:00 - 15:30</td>
                                             <td className="s4">Parallel Sessions</td>
-                                            <td className="s5">UCC 3</td>
-                                            <td className="s5">BDCAT 3</td>
-                                            <td className="s5" dir="ltr">Intel4EC 2</td>
+                                            <td className="s5">UCC 4</td>
+                                            <td className="s5">BDCAT 4</td>
+                                            <td className="s5" dir="ltr">Intel4EC 3</td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3">15:30 - 16:00</td>
                                             <td className="s4" colSpan="4">Tea/Coffee break</td>
                                         </tr>
-                                        <tr>
 
-                                            <td className="s3">16:00 - 17:30</td>
-                                            <td className="s4">Plenary Panel</td>
-                                            <td className="s5">UCC 4</td>
-                                            <td className="s5">BDCAT 4</td>
-                                            <td className="s5" dir="ltr">Intel4EC 3</td>
-                                        </tr>
                                         <tr>
 
                                             <td className="s3">18:00 - 20:30</td>
@@ -337,16 +338,13 @@ class Program extends React.Component {
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 1 -
                                                             Wednesday Dec 7
-                                                            morning 10:30-12:00
+                                                            morning 10:30 - 12:00 (PST)
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Predictive and
-                                                            Autonomic Cloud
-                                                            Computing
-                                                        </td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Predictive and Autonomic Cloud Computing (Session Chair: Vincenzo De Maio)		</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -393,15 +391,13 @@ class Program extends React.Component {
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 2 -
                                                             Wednesday Dec 7
                                                             afternoon
-                                                            15:30-17:00
+                                                            15:30 - 17:00 (PST)
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud
-                                                            Computing Paradigms
-                                                        </td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Computing Paradigms		</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -454,15 +450,13 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 3 -
-                                                            Thursday Dec 8 afternoon 14:00 - 15:30
+                                                            Thursday Dec 8 morning 10:30 - 12:00 (PST)
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Machine
-                                                            Learning
-                                                        </td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Machine Learning (Session Chair: Jingshu Chen)		</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -512,7 +506,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 4 -
-                                                            Thursday Dec 8 8 afternoon 16:00 - 17:30
+                                                            Thursday Dec 8 afternoon 14:00 - 15:30 (PST)
                                                         </td>
 
                                                     </tr>
@@ -572,7 +566,7 @@ class Program extends React.Component {
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 5 -
                                                             Friday Dec 9
-                                                            morning 10:30-12:30
+                                                            morning 10:30 - 12:30 (PST)
                                                         </td>
 
                                                     </tr>
@@ -644,7 +638,7 @@ class Program extends React.Component {
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session UCC 6 -
                                                             Friday Dec 9
-                                                            afternoon 13:30-15:30
+                                                            afternoon 13:30 - 15:30 (PST)
                                                         </td>
 
                                                     </tr>
@@ -729,7 +723,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 1 - Wednesday Dec 7 morning 10:30-12:00
+                                                            BDCAT 1 - Wednesday Dec 7 morning 10:30 - 12:00 (PST)
                                                         </td>
 
                                                     </tr>
@@ -778,7 +772,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 2 - Wednesday Dec 7 afternoon 15:30-17:00
+                                                            BDCAT 2 - Wednesday Dec 7 afternoon 15:30 - 17:00 (PST)
                                                         </td>
 
                                                     </tr>
@@ -828,14 +822,13 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 3 - Thursday Dec 8 afternoon 14:00 - 15:30
+                                                            BDCAT 3 - Thursday Dec 8 morning 10:30 - 12:00 (PST)
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
-                                                            Data for Cybersecurity
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Cybersecurity (chair Abdulkabir Abdulraheem)
                                                         </td>
 
                                                     </tr>
@@ -889,15 +882,13 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 4 - Thursday Dec 8 afternoon 16:00 - 17:30
+                                                            BDCAT 4 - Thursday Dec 8 afternoon 14:00 - 15:30 (PST)
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
-                                                            Data for Earth
-                                                        </td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Earth (chair Shangping Ren)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -946,7 +937,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 5 - Friday Dec 9 morning 10:30-12:30
+                                                            BDCAT 5 - Friday Dec 9 morning 10:30 - 12:30 (PST)
                                                         </td>
 
                                                     </tr>
@@ -1014,7 +1005,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="2">Session
-                                                            BDCAT 6 - Friday Dec 9 afternoon 13:30-15:30
+                                                            BDCAT 6 - Friday Dec 9 afternoon 13:30 - 15:30 (PST)
                                                         </td>
 
                                                     </tr>
@@ -1302,7 +1293,7 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Joint Poster Session - Wednesday, December 07 afternoon 18:00 - 20:30 (During Reception)</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Joint Poster Session - Wednesday, December 07 afternoon 18:30 - 20:30 (During Reception)</td>
 
                                                     </tr>
                                                     {/*<tr style={{height: "20px"}}>*/}
